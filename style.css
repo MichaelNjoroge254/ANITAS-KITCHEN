@@ -25,7 +25,7 @@ span {
     display: block;
     flex-direction: column;
     font-size: 30px;
-    border: 1px solid rgb(228, 233, 221);
+    /* border: 1px solid rgb(228, 233, 221); */
     box-sizing: border-box;
     text-align: center;
 
@@ -157,4 +157,23 @@ ul li a:active {
 }
 .person{
     display: flex;
+}
+.email{
+    background-image: url("/images/subscribe.jpg");
+    text-align: center;
+    height: 300px;
+
+}
+.foot{
+    background-color: tomato;
+    height: 300px;
+}
+.twelve{
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-between;
+}
+.facebook{
+    display: flex;
+    justify-content:inherit;
 }
