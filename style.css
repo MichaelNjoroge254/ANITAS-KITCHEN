@@ -47,14 +47,16 @@ span {
     box-sizing: content-box;
 }
 .drinks{
-    padding-right: 200px;
+    padding-right: 150px;
     float: right;
     display: flex;
     margin-right: 80px;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 1px 20px 10px 1px grey;
 }
 .five{
-    padding-left: 80px;
+    padding: 50px;
     margin: 160px;
+    display: block;
+    justify-content: left;
 }
