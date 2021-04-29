@@ -7,12 +7,15 @@
 
 
 }
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: grey;
-  margin: 5px 0;
-  margin-right: 5px;
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    margin: 5px 0;
+    margin-right: 5px;
 }
 
 
@@ -49,12 +52,6 @@ span {
     display: block;
     justify-content: right;
     margin: 140px;
-}
-
-.view {
-    padding: 10px;
-    box-shadow: 4px 1px 5px 3px #F15A29;
-    box-sizing: content-box;
 }
 
 .drinks {
@@ -103,7 +100,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: powderblue;
+    background-color: #F15A29;
     text-decoration: flip;
 }
 
@@ -131,26 +128,30 @@ ul li a:active {
 
 
 }
-.eight{
-    
+
+.eight {
+
     padding: 20px;
     text-align: center;
     color: #F15A29;
     box-shadow: 1px 2px 30px 20px white;
 }
-.nine{
+
+.nine {
     padding: 20px;
     text-align: center;
     color: #F15A29;
     box-shadow: 1px 2px 30px 20px white;
 }
-.ten{
+
+.ten {
     padding: 20px;
     text-align: center;
     color: #F15A29;
     box-shadow: 1px 2px 30px 20px white;
 }
-.happy{
+
+.happy {
     display: flex;
     margin-left: 100px;
     /* padding-bottom: 20px ; */
@@ -158,29 +159,35 @@ ul li a:active {
     box-shadow: 5px 10px 30px 3px grey;
     padding-right: 200px;
 }
-.about{
+
+.about {
     float: right;
     padding-right: 100px;
 }
-.person{
+
+.person {
     display: flex;
 }
-.email{
+
+.email {
     background-image: url("/images/subscribe.jpg");
     text-align: center;
     height: 300px;
 
 }
-.foot{
+
+.foot {
     background-color: tomato;
     height: 300px;
 }
-.twelve{
+
+.twelve {
     /* display: flex; */
     text-align: center;
     justify-content: space-between;
 }
-.facebook{
+
+.facebook {
     display: flex;
-    justify-content:inherit;
+    justify-content: inherit;
 }
