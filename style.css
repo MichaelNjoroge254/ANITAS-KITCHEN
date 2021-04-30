@@ -18,7 +18,38 @@
     margin-right: 5px;
 }
 
+.breakfast{
+    background-image: url("./images/breakfast.jpg");
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.lunch{
+    background-image: url("./images/lunch.jpg");
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    opacity: 0.5;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dinner{
+    background-image: url("./images/dinner.jpg");
+    display: flex;
+    justify-content: space-around;
+    width:70% ;
+    font-size: 2em;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 img {
 
     display: block;
